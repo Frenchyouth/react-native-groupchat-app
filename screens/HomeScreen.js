@@ -76,28 +76,7 @@ const HomeScreen = ({ navigation }) => {
     return unsubcribe;
   }, []);
 
-  // Test data
-  // ---------
-  // const list = [
-  //   {
-  //     name: "The Youtube chat",
-  //     avatar_url:
-  //       "https://compassionate-leakey-e9b16b.netlify.app/images/IG_Sonny.jpeg",
-  //     subtitle: "Yoo check this out!",
-  //   },
-  //   {
-  //     name: "Chris Jackson",
-  //     avatar_url:
-  //       "https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg",
-  //     subtitle: "Vice Chairman",
-  //   },
-  //   {
-  //     name: "Amy Farha",
-  //     avatar_url:
-  //       "https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg",
-  //     subtitle: "Vice President",
-  //   },
-  // ];
+
 
   const enterChat = (id, chatName) => {
     navigation.navigate("Chat", {
